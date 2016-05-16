@@ -35,8 +35,8 @@ class Readconfig extends Utils {
      *
      * @return boolean if success or fail ;-)
      */
-    function configAutoLoad() {
-        $this->mod->readConfig();
+    public function configAutoLoad() {
+        $this->mod->readConfig(true);
         $this->job_id = $this->jobs->addSingleJob($this->config->get("readconfig", "time"), array($this, "configAutoLoad"));
         return true;
     }
