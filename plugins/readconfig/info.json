@@ -1,15 +1,15 @@
 {
     "gsm.plugins.readconfig": {
         "compatibility": {
-            "dependencies": {"gsm.daemon": "1.0.0-RC+1"},
-            "games": {"bf4": "0", "bfhl": "0", "cod2": "0", "cod4": "1", "cod5": "0", "cod6": "0"}
+            "dependencies": {"gsm.daemon": "1.1.0"},
+            "games": {"bf3": "1", "bf4": "1", "bfhl": "1", "cod2": "1", "cod4": "1", "cod5": "1", "cod6": "1"}
         },
         "information": {
-            "author": "mirko911",
+            "author": "Mirko911",
             "date": "09.06.2014",
             "description": "Reloads the config all x seconds",
             "name": "Readconfig",
-            "version": "1.0.0-RC+1",
+            "version": "1.0.1",
             "website": "http://3xP-Clan.com"
         }
     }
