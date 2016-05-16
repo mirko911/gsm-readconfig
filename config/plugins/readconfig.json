@@ -1,0 +1,6 @@
+{
+    "readconfig": {
+        "enabled": false,
+        "time": 60
+    }
+}
